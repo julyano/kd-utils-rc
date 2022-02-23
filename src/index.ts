@@ -1,0 +1,1 @@
+export { formatCep } from './formatter';
