@@ -1,1 +1,7 @@
-export { formatCep } from './formatter';
+export {
+    formatCep,
+    formatCnpj,
+    formatCpf,
+    formatPhoneNumber,
+    removeCharacter
+} from './formatter';
