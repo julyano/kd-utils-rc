@@ -1,6 +1,6 @@
 # Tests
 tests/
-jestconfig.json
+jest.config.json
 
 # compiled output
 tmp/
