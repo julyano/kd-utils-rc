@@ -19,4 +19,4 @@
 
 ## Função `formatCep(value)`
 
-* Essa função formata um valor para um CEP
+* Essa função formata um valor para um formato de CEP 00000-000
