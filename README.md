@@ -21,7 +21,7 @@ Este pacote tem o objetivo de auxiliar, de maneira simples, na manipulação de 
 
 ## Função `formatCep(value: string): string`
 
-* Esta função formata um valor para um formato de CEP XXXXX-XXX
+* Esta função formata um valor para um formato de CEP `XXXXX-XXX`
 
 ```ts
     formatCep('12345678'); // => 12435-678
@@ -34,7 +34,7 @@ Este pacote tem o objetivo de auxiliar, de maneira simples, na manipulação de 
 
 ## Função `formatCpf(value: string): string`
 
-* Esta função formata um valor para um formato de CPF XXX.XXX.XXX-XX
+* Esta função formata um valor para um formato de CPF `XXX.XXX.XXX-XX`
 
 ```ts
     formatCpf('12345678901'); // => 123.456.789-01
@@ -43,7 +43,7 @@ Este pacote tem o objetivo de auxiliar, de maneira simples, na manipulação de 
 
 ## Função `formatCnpj(value: string): string`
 
-* Esta função formata um valor para um formato de CNPJ XXX.XXX.XXX-XX
+* Esta função formata um valor para um formato de CNPJ `XXX.XXX.XXX-XX`
 
 ```ts
     formatCnpj('12345678901234'); // => 12.345.678/9012-34
@@ -52,7 +52,7 @@ Este pacote tem o objetivo de auxiliar, de maneira simples, na manipulação de 
 
 ## Função `formatMobilePhone(value: string): string`
 
-* Esta função formata um valor para um formato de Telefone Celular (XXX) X XXXX-XXXX
+* Esta função formata um valor para um formato de Telefone Celular `(XXX) X XXXX-XXXX`
 
 ```ts
     formatMobilePhone('123456789012'); // => (123) 4 5678-9012
@@ -61,7 +61,7 @@ Este pacote tem o objetivo de auxiliar, de maneira simples, na manipulação de 
 
 ## Função `formatLandLine(value: string): string`
 
-* Esta função formata um valor para um formato de Telefone Fixo (XXX) XXXX-XXXX
+* Esta função formata um valor para um formato de Telefone Fixo `(XXX) XXXX-XXXX`
 
 ```ts
     formatLandLine('12345678901'); // => (123) 4567-8901
