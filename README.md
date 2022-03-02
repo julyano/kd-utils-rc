@@ -25,8 +25,11 @@ Este pacote tem o objetivo de auxiliar, de maneira simples, na manipulação de 
 
 ```ts
     formatCep('12345678'); // => 12435-678
+    formatCep('12ab45678'); // => 12435-678
+    formatCep('12ab456789'); // => 12435-678
     formatCep('00000000'); // => 00000-000
-    formatCep('12ab45678'); // => 00000-000
+    formatCep(''); // => 00000-000
+    formatCep(null); // => 00000-000
 ```
 
 ## Função `formatCpf(value: string): string`
