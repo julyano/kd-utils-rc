@@ -10,8 +10,12 @@ export function formatCnpj(value: string): string {
     return format(value, '00.000.000/0000-00', 14, /(\d{2})(\d{3})(\d{3})(\d{4})(\d{2})/, "$1.$2.$3/$4-$5");
 }
 
-export function formatPhoneNumber(value: string): string {
+export function formatMobilePhone(value: string): string {
     return format(value, '(000) 0 0000-0000',12, /(\d{3})(\d{1})(\d{4})(\d{4})/, "($1) $2 $3-$4");
+}
+
+export function formatLandLine(value: string): string {
+    return format(value, '(000) 0000-0000',11, /(\d{3})(\d{4})(\d{4})/, "($1) $2-$3");
 }
 
 export function removeCharacter(value: string, characteresToRemove: string): string {

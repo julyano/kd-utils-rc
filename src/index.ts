@@ -2,6 +2,7 @@ export {
     formatCep,
     formatCnpj,
     formatCpf,
-    formatPhoneNumber,
+    formatMobilePhone,
+    formatLandLine,
     removeCharacter
 } from './formatter';
