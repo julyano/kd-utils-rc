@@ -19,9 +19,11 @@ Este pacote tem o objetivo de auxiliar, de maneira simples, na manipulação de 
     import { formatCep } from 'kd-utils-rc';
 ```
 
-## Função `formatCep(value: string): string`
+## Funções
 
-* Esta função formata um valor para um formato de CEP `XXXXX-XXX`
+### `formatCep(value: string): string`
+
+* Formata um valor para um formato de CEP `XXXXX-XXX`
 
 ```ts
     formatCep('12345678'); // => 12435-678
@@ -32,45 +34,45 @@ Este pacote tem o objetivo de auxiliar, de maneira simples, na manipulação de 
     formatCep(null); // => 00000-000
 ```
 
-## Função `formatCpf(value: string): string`
+### `formatCpf(value: string): string`
 
-* Esta função formata um valor para um formato de CPF `XXX.XXX.XXX-XX`
+* Formata um valor para um formato de CPF `XXX.XXX.XXX-XX`
 
 ```ts
     formatCpf('12345678901'); // => 123.456.789-01
     formatCpf('00000000000'); // => 000.000.000-00
 ```
 
-## Função `formatCnpj(value: string): string`
+### `formatCnpj(value: string): string`
 
-* Esta função formata um valor para um formato de CNPJ `XXX.XXX.XXX-XX`
+* Formata um valor para um formato de CNPJ `XX.XXX.XXX/XXXX-XX`
 
 ```ts
     formatCnpj('12345678901234'); // => 12.345.678/9012-34
     formatCnpj('00000000000000'); // => 00.000.000/0000-00
 ```
 
-## Função `formatMobilePhone(value: string): string`
+### `formatMobilePhone(value: string): string`
 
-* Esta função formata um valor para um formato de Telefone Celular `(XXX) X XXXX-XXXX`
+* Formata um valor para um formato de Telefone Celular `(XXX) X XXXX-XXXX`
 
 ```ts
     formatMobilePhone('123456789012'); // => (123) 4 5678-9012
     formatMobilePhone('000000000000'); // => (000) 0 0000-0000
 ```
 
-## Função `formatLandLine(value: string): string`
+### `formatLandLine(value: string): string`
 
-* Esta função formata um valor para um formato de Telefone Fixo `(XXX) XXXX-XXXX`
+* Formata um valor para um formato de Telefone Fixo `(XXX) XXXX-XXXX`
 
 ```ts
     formatLandLine('12345678901'); // => (123) 4567-8901
     formatLandLine('00000000000'); // => (000) 0000-0000
 ```
 
-## Função `removeCharacter(value: string, characteresToRemove: string): string`
+### `removeCharacter(value: string, characteresToRemove: string): string`
 
-* Esta função substitui os caracteres em `valor` de acordo com o solicitado no parâmetro `characteresToRemove`
+* Substitui os caracteres em `valor` de acordo com o solicitado no parâmetro `characteresToRemove`
 
 ```ts
     removeCharacter('1234#@567@8,901', '#@'); // => 12345678,901
